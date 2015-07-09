@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		513E5C061B4E897300B8C812 /* libYNButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 513E5BFA1B4E897300B8C812 /* libYNButton.a */; };
+		513E5C171B4E8A6E00B8C812 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513E5C141B4E8A2C00B8C812 /* UIKit.framework */; };
+		513E5C191B4E8A7C00B8C812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513E5C181B4E8A7C00B8C812 /* Foundation.framework */; };
+		513E5C1B1B4E8A8700B8C812 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513E5C1A1B4E8A8700B8C812 /* CoreGraphics.framework */; };
+		513E5C1D1B4E8A9000B8C812 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513E5C1C1B4E8A9000B8C812 /* QuartzCore.framework */; };
+		513E5C201B4E8C3C00B8C812 /* YNButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 513E5BFD1B4E897300B8C812 /* YNButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513E5C231B4E8CD400B8C812 /* btRippleButtton.h in Headers */ = {isa = PBXBuildFile; fileRef = 513E5C211B4E8CD400B8C812 /* btRippleButtton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513E5C241B4E8CD400B8C812 /* btRippleButtton.m in Sources */ = {isa = PBXBuildFile; fileRef = 513E5C221B4E8CD400B8C812 /* btRippleButtton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		513E5C071B4E897300B8C812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513E5BF21B4E897300B8C812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513E5BF91B4E897300B8C812;
+			remoteInfo = YNButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		513E5BF81B4E897300B8C812 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		513E5BFA1B4E897300B8C812 /* libYNButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYNButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		513E5BFD1B4E897300B8C812 /* YNButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YNButton.h; sourceTree = "<group>"; };
+		513E5C051B4E897300B8C812 /* YNButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		513E5C0B1B4E897300B8C812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513E5C141B4E8A2C00B8C812 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		513E5C181B4E8A7C00B8C812 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		513E5C1A1B4E8A8700B8C812 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		513E5C1C1B4E8A9000B8C812 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		513E5C211B4E8CD400B8C812 /* btRippleButtton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btRippleButtton.h; path = ../../mybutton/mybutton/btRippleButtton.h; sourceTree = "<group>"; };
+		513E5C221B4E8CD400B8C812 /* btRippleButtton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = btRippleButtton.m; path = ../../mybutton/mybutton/btRippleButtton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		513E5BF71B4E897300B8C812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513E5C1D1B4E8A9000B8C812 /* QuartzCore.framework in Frameworks */,
+				513E5C1B1B4E8A8700B8C812 /* CoreGraphics.framework in Frameworks */,
+				513E5C191B4E8A7C00B8C812 /* Foundation.framework in Frameworks */,
+				513E5C171B4E8A6E00B8C812 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513E5C021B4E897300B8C812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513E5C061B4E897300B8C812 /* libYNButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		513E5BF11B4E897300B8C812 = {
+			isa = PBXGroup;
+			children = (
+				513E5C161B4E8A4A00B8C812 /* Frameworks */,
+				513E5BFC1B4E897300B8C812 /* YNButton */,
+				513E5C091B4E897300B8C812 /* YNButtonTests */,
+				513E5BFB1B4E897300B8C812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		513E5BFB1B4E897300B8C812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				513E5BFA1B4E897300B8C812 /* libYNButton.a */,
+				513E5C051B4E897300B8C812 /* YNButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		513E5BFC1B4E897300B8C812 /* YNButton */ = {
+			isa = PBXGroup;
+			children = (
+				513E5BFD1B4E897300B8C812 /* YNButton.h */,
+				513E5C211B4E8CD400B8C812 /* btRippleButtton.h */,
+				513E5C221B4E8CD400B8C812 /* btRippleButtton.m */,
+			);
+			path = YNButton;
+			sourceTree = "<group>";
+		};
+		513E5C091B4E897300B8C812 /* YNButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				513E5C0A1B4E897300B8C812 /* Supporting Files */,
+			);
+			path = YNButtonTests;
+			sourceTree = "<group>";
+		};
+		513E5C0A1B4E897300B8C812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				513E5C0B1B4E897300B8C812 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		513E5C161B4E8A4A00B8C812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				513E5C1C1B4E8A9000B8C812 /* QuartzCore.framework */,
+				513E5C1A1B4E8A8700B8C812 /* CoreGraphics.framework */,
+				513E5C181B4E8A7C00B8C812 /* Foundation.framework */,
+				513E5C141B4E8A2C00B8C812 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		513E5C1F1B4E8C2200B8C812 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513E5C201B4E8C3C00B8C812 /* YNButton.h in Headers */,
+				513E5C231B4E8CD400B8C812 /* btRippleButtton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		513E5BF91B4E897300B8C812 /* YNButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513E5C0E1B4E897300B8C812 /* Build configuration list for PBXNativeTarget "YNButton" */;
+			buildPhases = (
+				513E5BF61B4E897300B8C812 /* Sources */,
+				513E5BF71B4E897300B8C812 /* Frameworks */,
+				513E5BF81B4E897300B8C812 /* Copy Files */,
+				513E5C1E1B4E8BA900B8C812 /* Resources */,
+				513E5C1F1B4E8C2200B8C812 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YNButton;
+			productName = YNButton;
+			productReference = 513E5BFA1B4E897300B8C812 /* libYNButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		513E5C041B4E897300B8C812 /* YNButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513E5C111B4E897300B8C812 /* Build configuration list for PBXNativeTarget "YNButtonTests" */;
+			buildPhases = (
+				513E5C011B4E897300B8C812 /* Sources */,
+				513E5C021B4E897300B8C812 /* Frameworks */,
+				513E5C031B4E897300B8C812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513E5C081B4E897300B8C812 /* PBXTargetDependency */,
+			);
+			name = YNButtonTests;
+			productName = YNButtonTests;
+			productReference = 513E5C051B4E897300B8C812 /* YNButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		513E5BF21B4E897300B8C812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = YuNie;
+				TargetAttributes = {
+					513E5BF91B4E897300B8C812 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					513E5C041B4E897300B8C812 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 513E5BF51B4E897300B8C812 /* Build configuration list for PBXProject "YNButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 513E5BF11B4E897300B8C812;
+			productRefGroup = 513E5BFB1B4E897300B8C812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				513E5BF91B4E897300B8C812 /* YNButton */,
+				513E5C041B4E897300B8C812 /* YNButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		513E5C031B4E897300B8C812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513E5C1E1B4E8BA900B8C812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		513E5BF61B4E897300B8C812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513E5C241B4E8CD400B8C812 /* btRippleButtton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513E5C011B4E897300B8C812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		513E5C081B4E897300B8C812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 513E5BF91B4E897300B8C812 /* YNButton */;
+			targetProxy = 513E5C071B4E897300B8C812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		513E5C0C1B4E897300B8C812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		513E5C0D1B4E897300B8C812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		513E5C0F1B4E897300B8C812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		513E5C101B4E897300B8C812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		513E5C121B4E897300B8C812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YNButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		513E5C131B4E897300B8C812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YNButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		513E5BF51B4E897300B8C812 /* Build configuration list for PBXProject "YNButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513E5C0C1B4E897300B8C812 /* Debug */,
+				513E5C0D1B4E897300B8C812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513E5C0E1B4E897300B8C812 /* Build configuration list for PBXNativeTarget "YNButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513E5C0F1B4E897300B8C812 /* Debug */,
+				513E5C101B4E897300B8C812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		513E5C111B4E897300B8C812 /* Build configuration list for PBXNativeTarget "YNButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513E5C121B4E897300B8C812 /* Debug */,
+				513E5C131B4E897300B8C812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 513E5BF21B4E897300B8C812 /* Project object */;
+}
